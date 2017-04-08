@@ -1,0 +1,96 @@
+.center {
+  text-align:center;
+}
+
+.description {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.top5 { margin-top:5px; }
+.top7 { margin-top:7px; }
+.top10 { margin-top:10px; }
+.top15 { margin-top:15px; }
+.top17 { margin-top:17px; }
+.top30 { margin-top:30px; }
+
+.vote-button {
+  height: 50px;
+  font-size: 20px;
+}
+
+.icon-nh_half {
+    font-size: 50px;
+}
+.icon-nh_quarter {
+    font-size: 50px;
+}
+.icon-treble_clef {
+    font-size: 30px;
+}
+.icon-c_clef {
+    font-size: 30px;
+}
+.icon-bass_clef {
+    font-size: 30px;
+}
+
+@font-face {
+    font-family: 'VintagerIcons';
+    src:    url('fonts/VintagerIcons.eot?qqct27');
+    src:    url('fonts/VintagerIcons.eot?qqct27#iefix') format('embedded-opentype'),
+        url('fonts/VintagerIcons.ttf?qqct27') format('truetype'),
+        url('fonts/VintagerIcons.woff?qqct27') format('woff'),
+        url('fonts/VintagerIcons.svg?qqct27#VintagerIcons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'VintagerIcons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-flat:before {
+    content: "\266d";
+}
+.icon-natural:before {
+    content: "\266e";
+}
+.icon-sharp:before {
+    content: "\266f";
+}
+.icon-treble_clef:before {
+    content: "\e050";
+}
+.icon-c_clef:before {
+    content: "\e05c";
+}
+.icon-bass_clef:before {
+    content: "\e062";
+}
+.icon-timesig_common:before {
+    content: "\e08a";
+}
+.icon-timesig_cut:before {
+    content: "\e08b";
+}
+.icon-nh_whole:before {
+    content: "\e0a2";
+}
+.icon-nh_half:before {
+    content: "\e0a3";
+}
+.icon-nh_quarter:before {
+    content: "\e0a4";
+}

@@ -1,0 +1,12 @@
+{
+  "name": "symbol1",
+  "image": "",
+  "algorithm": "cnn",
+  "labels": [{
+    "name": "label1",
+    "probability": "0.5"
+  }, {
+    "name": "label2",
+    "probability": "0.07"
+  }]
+}
